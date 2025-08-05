@@ -15,24 +15,26 @@
         //"sway/scratchpad",
         //"custom/media"
     ],
-    //"modules-center": [
+    "modules-center": [
+	"clock"//,
         //"hyprland/window"
-    //],
+    ],
     "modules-right": [
         //"mpd",
         //"idle_inhibitor",
         //"pulseaudio",
         "network",
         //"power-profiles-daemon",
-        "cpu",
-        "memory",
-        "temperature",
-        "backlight",
+        //"cpu",
+        //"memory",
+        //"temperature",
+        //"backlight",
         //"keyboard-state",
         //"sway/language",
         "battery",
+	"group/hardware"
         //"battery#bat2",
-        "clock"//,
+        //"clock"//,
         //"tray",
         //"custom/power"
     ],
@@ -132,6 +134,7 @@
     },
     "clock": {
         // "timezone": "America/New_York",
+	"format": "{:%d-%m-%Y %H:%M}",
         "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
         "format-alt": "{:%Y-%m-%d}"
     },

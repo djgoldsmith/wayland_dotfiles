@@ -109,7 +109,8 @@ button:hover {
 #power-profiles-daemon,
 #mpd {
     padding: 0 10px;
-    color: #ffffff;
+    /*color: #ffffff;*/
+    color: @text;
 }
 
 #window,
@@ -128,16 +129,23 @@ button:hover {
 }
 
 .modules-right {
-    background-color: @red;
+    background-color: @surface0;
+    border-radius: 25px;
 }
 
+.modules-center {
+    background-color: @surface0;
+    border-radius: 25px;
+}
+
+
 #clock {
-    background-color: #64727D;
+    /*background-color: #64727D;*/
 }
 
 #battery {
-    background-color: #ffffff;
-    color: #000000;
+    /*background-color: #ffffff;*/
+    /*color: #000000;*/
 }
 
 #battery.charging, #battery.plugged {
@@ -187,12 +195,12 @@ label:focus {
 }
 
 #cpu {
-    background-color: #2ecc71;
-    color: #000000;
+    /*background-color: #2ecc71;
+    color: #000000;*/
 }
 
 #memory {
-    background-color: #9b59b6;
+   /* background-color: #9b59b6;*/
 }
 
 #disk {
@@ -200,15 +208,15 @@ label:focus {
 }
 
 #backlight {
-    background-color: #90b1b1;
+    /*background-color: #90b1b1;*/
 }
 
 #network {
-    background-color: #2980b9;
+    /*background-color: #2980b9;*/
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    /*background-color: #f53c3c;*/
 }
 
 #pulseaudio {
@@ -245,7 +253,7 @@ label:focus {
 }
 
 #temperature {
-    background-color: #f0932b;
+    /*background-color: #f0932b;*/
 }
 
 #temperature.critical {

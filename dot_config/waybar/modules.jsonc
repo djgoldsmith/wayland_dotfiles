@@ -29,5 +29,20 @@
     	//  "foot": "", // Windows that contain "foot" in either class or title. For optimization reasons, it will only match against a title if at least one other window explicitly matches against a title.
     	//  "code": "󰨞",
 	// },
+     },
+     
+     "group/hardware" : {
+     "orientation": "horizontal",
+     "modules": ["cpu",
+     		"temperature",
+     		"memory"
+     ],
+     "drawer": {
+     	
+        "transition-duration": 500,
+        "children-class": "not-power",
+        "transition-left-to-right": false,
+	"click-to-reveal": true
+    	}
      }
 }
