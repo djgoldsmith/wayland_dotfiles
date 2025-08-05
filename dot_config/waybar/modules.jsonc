@@ -1,0 +1,33 @@
+{
+"hyprland/workspaces": {
+    //    "format": "{name}: {icon}",
+    //     "disable-scroll": true,
+         "all-outputs": true,
+         "warp-on-scroll": false,
+         //"format": "{icon}: {windows}",  //This is quite nifty, add what is in the window
+	 "format": "{icon}",
+         "format-icons": {
+             "1": "0001",
+             "2": "0010",
+             "3": "0011",
+             "4": "0100",
+             "5": "0101",
+	     "6": "0110",
+	     "7": "0111",
+	     "8": "1000",
+	     "9": "1001",
+	     //"active": " ",
+             "urgent": "",
+             "focused": "",
+             "default": ""
+         },
+	//  "window-rewrite-default": "",
+  	//  "window-rewrite": {		   
+    	//  "title<.*youtube.*>": "", // Windows whose titles contain "youtube"
+    	//  "class<firefox>": "", // Windows whose classes are "firefox"
+    	//  "class<firefox> title<.*github.*>": "", // Windows whose class is "firefox" and title contains "github". Note that "class" always comes first.
+    	//  "foot": "", // Windows that contain "foot" in either class or title. For optimization reasons, it will only match against a title if at least one other window explicitly matches against a title.
+    	//  "code": "󰨞",
+	// },
+     }
+}
